@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="calculadora">
+            <input type="text" id="resultado" readonly />
+            <br />
+
+            <button id="limpar" onclick="limparDisplay()">C</button>
+            <button class="operador" onclick="inserirDisplay()">/</button>
+            <br />
+
+            <button class="numero" onclick="inserirDisplay('7')">7</button>
+            <button class="numero" onclick="inserirDisplay('8')">8</button>
+            <button class="numero" onclick="inserirDisplay('9')">9</button>
+            <button class="operador" onclick="inserirDisplay('*')">*</button>
+            <br />
+
+            <button class="numero" onclick="inserirDisplay('4')">4</button>
+            <button class="numero" onclick="inserirDisplay('5')">5</button>
+            <button class="numero" onclick="inserirDisplay('6')">6</button>
+            <button class="operador" onclick="inserirDisplay('-')">-</button>
+            <br />
+
+            <button class="numero" onclick="inserirDisplay('1')">1</button>
+            <button class="numero" onclick="inserirDisplay('2')">2</button>
+            <button class="numero" onclick="inserirDisplay('3')">3</button>
+            <button class="operador" onclick="inserirDisplay('+')">+</button>
+            <br />
+
+            <button class="numero" onclick="inserirDisplay('0')">0</button>
+            <button class="virgula" onclick="inserirDisplay('.')"> , </button>
+            <button id="igual" onclick="calcular()">=</button>
+            <br />
+
+
+        </div>
+
+
+
+        <script src="scripts.js"></script>
+    </body>
+
+
+
+
+
+
+
+</html>
